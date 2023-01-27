@@ -19,7 +19,7 @@ header {
     background-image: url('../assets/design1_image1.jpg');
     background-position-x: 50%;
     background-position-y: 50%;
-    height: 400px;
+    height: 250px;
     display: block;
 }
 
@@ -55,7 +55,8 @@ main {
 
 .sidebar {
     display: inline-block;
-    text-align: center;
+    text-align: left;
+    margin-left: 15px;
 }
 
 .sidebar_menu p {
@@ -66,10 +67,12 @@ main {
 .contenido {
     display: inline-block;
     max-width: 75%;
+    margin-left: 30px;
 }
 
 .contenido p {
     text-align: justify;
+    line-height: 200%;
 }
 
 .contacto {
