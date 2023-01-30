@@ -71,7 +71,7 @@ main {
 }
 
 .contenido p {
-    text-align: justify;
+    text-align: left;
     line-height: 200%;
 }
 
