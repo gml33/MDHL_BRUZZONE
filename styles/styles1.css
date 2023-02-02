@@ -11,33 +11,19 @@ header {
     font-size: x-large;
 }
 
-.menu1 {
-    display: none;
-}
-
 .cabecera {
     background-image: url('../assets/design1_image1.jpg');
     background-position-x: 50%;
     background-position-y: 50%;
     height: 250px;
-    display: block;
 }
 
 .eventos {
-    display: block;
     height: fit-content;
     background-color: black;
     text-align: center;
     color: white;
     font-size: large;
-}
-
-.eventos_h1 {
-    display: inline-block;
-}
-
-.eventos_logo {
-    float: right;
 }
 
 .logo {
@@ -54,16 +40,10 @@ header {
     border: 2px solid black;
 }
 
-.sidebar {
-    display: flex;
-    text-align: left;
-    margin-left: 15px;
-    border: 2px solid black;
-}
-
-.sidebar_menu nav{
+.sidebar nav{
     display: flex;
     flex-direction: column;
+    border: 2px solid black;
 }
 
 .sidebar_menu p {
@@ -88,10 +68,6 @@ header {
     display: inline-block;
 }
 
-.sidebar_logo {
-    display: none;
-}
-
 table {
     border-collapse: collapse;
 }
@@ -99,4 +75,19 @@ table {
 th,  td {
     border: 2px solid #cecfd5;
     padding: 10px 15px;
+}
+
+.footer{
+    height: min-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer img{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 15px;
+    height: 150px;
 }
