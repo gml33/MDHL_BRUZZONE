@@ -74,7 +74,7 @@ nav>a {
     flex-direction: column;
     width: 85%;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .contenido p {
@@ -83,11 +83,11 @@ nav>a {
 
 table {
     border-collapse: collapse;
+    margin: 20px;
 }
 
 th,
 td {
-    border: 1px solid black;
     padding: 10px 15px;
 }
 
@@ -119,4 +119,18 @@ li {
 }
 fieldset{
     border: none;
+}
+.game_locations{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game_locations iframe{
+    width: 50%;
+    height: 300px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
 }
