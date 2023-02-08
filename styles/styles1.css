@@ -154,7 +154,10 @@ fieldset{
         height: 50px;
     }
     .logo{
-        display: none;
+        width: 100px;
+        height: 100px;
+        transform: none;
+
     }
 }
 
@@ -175,17 +178,20 @@ fieldset{
 
     .eventos {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         background-color: black;
         text-align: center;
         color: white;
         font-size: large;
         justify-content: center;
         align-items: center;
-        height: 50px;
+        height: fit-content;
     }
     .logo{
-        display: none;
+        width: 100px;
+        height: 100px;
+        transform: none;
+
     }
 
     .contenido p {
