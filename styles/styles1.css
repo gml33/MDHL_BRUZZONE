@@ -117,3 +117,6 @@ li {
 .contenido article ul p {
     text-indent: 0%;
 }
+fieldset{
+    border: none;
+}
