@@ -77,6 +77,12 @@ nav>a {
     align-items: center;
 }
 
+.eventos_info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .contenido p {
     text-indent: 40px;
 }
@@ -133,4 +139,284 @@ fieldset{
     margin: 15px;
     border-radius: 10px;
     border: 1px solid black;
+}
+
+@media only screen and (max-width: 768) {
+    * {
+        font-family: "Comic Sans", cursive;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        width: 100%;
+        height: fit-content;
+        font-size: x-large;
+    }
+    
+    main {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.83), rgba(255, 255, 255, 0.83)), url('../assets/design1_image2.jpg');
+        background-size: cover;
+    }
+    
+    footer {
+        width: 100%;
+        height: min-content;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .cabecera {
+        background-image: url('../assets/design1_image1.jpg');
+        background-position-x: 50%;
+        background-position-y: 50%;
+        height: 250px;
+    }
+    
+    .eventos {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        text-align: center;
+        color: white;
+        font-size: large;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+    }
+    
+    .logo {
+        width: 150px;
+        height: 150px;
+        transform: translate(250%);
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        justify-content: flex-start;
+        text-align: center;
+    }
+    
+    nav>a {
+        padding: 7px;
+    }
+    
+    
+    .contenido {
+        margin-top: 1%;
+        line-height: 200%;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .contenido p {
+        text-indent: 40px;
+    }
+    
+    table {
+        border-collapse: collapse;
+        margin: 20px;
+    }
+    
+    th,
+    td {
+        padding: 10px 15px;
+    }
+    
+    footer>img {
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin: 15px;
+        height: 150px;
+    }
+    
+    ul ol {
+        list-style-position: inside;
+    }
+    
+    ul {
+        list-style-type: circle;
+    }
+    
+    li {
+        margin-left: 10px;
+    }
+    
+    .contenido ol ol {
+        list-style-type: lower-latin;
+    }
+    
+    .contenido article ul p {
+        text-indent: 0%;
+    }
+    fieldset{
+        border: none;
+    }
+    .game_locations{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .game_locations iframe{
+        width: 50%;
+        height: 300px;
+        margin: 15px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    }
+    
+
+
+@media only screen and (max-width: 375) {
+    * {
+        font-family: "Comic Sans", cursive;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        width: 100%;
+        height: fit-content;
+        font-size: x-large;
+    }
+    
+    main {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.83), rgba(255, 255, 255, 0.83)), url('../assets/design1_image2.jpg');
+        background-size: cover;
+    }
+    
+    footer {
+        width: 100%;
+        height: min-content;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .cabecera {
+        background-image: url('../assets/design1_image1.jpg');
+        background-position-x: 50%;
+        background-position-y: 50%;
+        height: 250px;
+    }
+    
+    .eventos {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        text-align: center;
+        color: white;
+        font-size: large;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+    }
+    
+    .logo {
+        width: 150px;
+        height: 150px;
+        transform: translate(250%);
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        justify-content: flex-start;
+        text-align: center;
+    }
+    
+    nav>a {
+        padding: 7px;
+    }
+    
+    
+    .contenido {
+        margin-top: 1%;
+        line-height: 200%;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .contenido p {
+        text-indent: 40px;
+    }
+    
+    table {
+        border-collapse: collapse;
+        margin: 20px;
+    }
+    
+    th,
+    td {
+        padding: 10px 15px;
+    }
+    
+    footer>img {
+        border: 1px solid gray;
+        border-radius: 5px;
+        margin: 15px;
+        height: 150px;
+    }
+    
+    ul ol {
+        list-style-position: inside;
+    }
+    
+    ul {
+        list-style-type: circle;
+    }
+    
+    li {
+        margin-left: 10px;
+    }
+    
+    .contenido ol ol {
+        list-style-type: lower-latin;
+    }
+    
+    .contenido article ul p {
+        text-indent: 0%;
+    }
+    fieldset{
+        border: none;
+    }
+    .game_locations{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .game_locations iframe{
+        width: 50%;
+        height: 300px;
+        margin: 15px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
 }
